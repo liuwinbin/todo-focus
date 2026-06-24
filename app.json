@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "专注番茄钟",
+    "slug": "pomodoro-focus",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "pomodoro-focus",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.pomodoro.focus",
+      "adaptiveIcon": {
+        "backgroundColor": "#C3B1E1",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "f9db0923-1916-4b6c-8903-7adce7a76428"
+      }
+    },
+    "owner": "liuwinbin"
+  }
+}
